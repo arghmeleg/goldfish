@@ -1,5 +1,6 @@
 defmodule Goldfish.Store do
   @moduledoc """
+  This module implements the Plug.Session.Store behavior.
   """
 
   @behaviour Plug.Session.Store

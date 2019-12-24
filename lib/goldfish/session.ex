@@ -1,4 +1,9 @@
 defmodule Goldfish.Session do
+  @moduledoc """
+  This module represents the database model which stores user sessions.
+  It is responsible for getting, updating, and deleting sessions.
+  """
+
   use Ecto.Schema
 
   @timestamps_opts [type: :utc_datetime]
