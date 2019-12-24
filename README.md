@@ -1,11 +1,12 @@
+[![Hex.pm Version](http://img.shields.io/hexpm/v/goldfish.svg)](https://hex.pm/packages/goldfish)[![License badge](https://img.shields.io/hexpm/l/goldfish.svg)](https://github.com/arghmeleg/goldfish/blob/master/LICENSE)
+
 # Goldfish
 
-**TODO: Add description**
+Goldfish is a database session store that implements the Plug.Session.Store behavior.
 
 ## Installation
 
-1. If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `goldfish` to your list of dependencies in `mix.exs`:
+1. Goldfish can be installed by adding `goldfish` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
@@ -14,6 +15,7 @@ def deps do
   ]
 end
 ```
+
 2. Edit your endpoint file (for example `lib/my_app_web/endpoint.ex`) and change `store` to use `Goldfish.Store`
 
 ```elixir
@@ -47,7 +49,3 @@ mix ecto.migrate
 ```
 
 That's it! You're ready to start using Goldfish to store your user sessions.
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/goldfish](https://hexdocs.pm/goldfish).
